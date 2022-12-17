@@ -689,11 +689,14 @@ body {
         opacity: 0;
         transform: translateY(100%);
         transition: opacity 500ms ease, transform 500ms ease;
-        &--one {
-         padding-right: 1em;
-        }
-        &--two {
-         padding-left: 1em;
+        
+        @media screen and (min-width: 48.1em) { //768px
+            &--one {
+             padding-right: 1em;
+            }
+            &--two {
+             padding-left: 1em;
+            }
         }
         &.show {
             opacity: 1;
