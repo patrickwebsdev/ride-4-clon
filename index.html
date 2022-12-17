@@ -11,7 +11,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav"></nav>
+    <nav class="nav">
+        <div class="nav__container">
+            <img class="nav__logo" src="assets/img/logo.svg" alt="">
+            <button class="nav__button"><span></span></button>
+            <ul class="nav__list">
+                <li class="nav__link nav__link--dropdown">
+                    <a class="nav__a" href="">ES <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m7 10 5 5 5-5H7Z"></path></a>
+                  </svg>
+                    <ul class="nav__dropdown">
+                        <li class="nav__dropdown--link">IT</li>
+                        <li class="nav__dropdown--link">FR</li>
+                        <li class="nav__dropdown--link">EN</li>
+                        <li class="nav__dropdown--link">DE</li>
+                    </ul>
+                </li>
+                <li class="nav__link">CARACTERISTICAS</li>
+                <li class="nav__link">NOVEDADES</li>
+                <li class="nav__link">MULTIMEDIA</li>
+                <li class="nav__link">DLCS & SEASON PASS</li>
+                <li class="nav__link">GAME UPDATES</li>
+                <li class="nav__link nav__link--button">COMPRAR AHORA</li>
+                <div class="nav__social social">
+                    <a href="#test" class="nav__social--link social__link">
+                        <img class="social__img" src="assets/img/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="#test" class="nav__social--link social__link">
+                        <img class="social__img" src="assets/img/youtube.svg" alt="Youtube">
+                    </a>
+                    <a href="#test" class="nav__social--link social__link">
+                        <img class="social__img" src="assets/img/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="#test" class="nav__social--link social__link social__link--size">#RIDE4</a>
+                </div>
+            </ul>
+        </div>
+    </nav>
     <header class="header">
         <div class="header__container">
             <h1 class="header__h1"><img class="header__logo" src="assets/img/logo.svg" alt="RIDE 4"></h1>

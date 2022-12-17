@@ -5,7 +5,7 @@ let sectionOneBike = sectionOne.querySelector(".section__bike");
 let sectionOnePosition = sectionOne.getBoundingClientRect().top;
 let screenPosition = window.innerHeight;
 let shop = document.querySelector(".shop");
-
+let navButton = document.querySelector('.nav__button');
 
 window.addEventListener("DOMContentLoaded", (event) => {
     document.querySelector(".header__video").classList.add("show");
@@ -20,8 +20,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
         document.querySelector(".buttons").classList.add("show");
     }, 1200);
     setTimeout(() => {
-        document.querySelector(".social").classList.add("show");
+        document.querySelectorAll(".social")[1].classList.add("show");
     }, 1500);
+});
+
+navButton.addEventListener("click", () => {
+    navButton.classList.toggle("open");
 });
 
 window.addEventListener("scroll", () => {
