@@ -698,6 +698,11 @@ body {
              padding-left: 1em;
             }
         }
+        @media screen and (max-width: 48em){
+            &--one {
+                margin-bottom: 3em;
+            }
+        }
         &.show {
             opacity: 1;
             transform: translateY(0%);
