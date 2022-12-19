@@ -7,10 +7,10 @@ body {
     background-attachment: fixed;
     background-position: center;
     @media screen and (min-width: 81.25em) { //1300px
-        background-image: url("../img/background_2x.jpg");
+        background-image: url("../img/background_2x.webp");
     }
     @media screen and (max-width: 81.24em) {
-        background-image: url("../img/background_1x.jpg");
+        background-image: url("../img/background_1x.webp");
     }
 }
 .nav {
